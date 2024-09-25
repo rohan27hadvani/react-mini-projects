@@ -7,11 +7,14 @@ function App() {
 
   return (
     <>
-      <div className="m-2 text-center">
+      <div className="mt-8 text-center">
         <h1 className="text-3xl">
             Hello world!
         </h1>
-        <CounterApp />
+      </div>
+
+      <div className="counter-div">
+      <CounterApp />
       </div>
  
     </>

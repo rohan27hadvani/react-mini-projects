@@ -3,25 +3,9 @@
 @tailwind utilities;
 
 body {
-    @apply: font-mono
+    @apply font-mono bg-gray-800 text-white
 }
 
-.counterMain {
-    @apply: bg-grey-500 p-4 text-white
-}
-
-.counterBtn {
-    @apply: py-3 text-white font-semibold w-1/2 m-auto mb-2 rounded-md block
-}
-
-#increment-btn {
-    background: darkgreen;
-}
-
-#decrement-btn {
-    background: darkred;
-}
-
-#save-btn {
-    background: blue;
+.counter-div {
+    @apply bg-gray-700 m-3 mt-8 rounded-xl shadow-lg p-4 text-center w-2/5
 }
